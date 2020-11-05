@@ -1,14 +1,14 @@
 {
-  "name": "jokes",
+  "name": "whatsappas",
   "version": "1.0.0",
-  "description": "jokes",
+  "description": "whatsappas",
   "main": "index.js",
   "scripts": {
     "test": "test",
     "start": "node index.js"
   },
   "keywords": [
-    "jokes"
+    "whatsappas"
   ],
   "author": "Mantu",
   "license": "ISC",
@@ -22,3 +22,4 @@
     "original-url": "1.2.3"
   }
 }
+
