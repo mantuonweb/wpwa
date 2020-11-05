@@ -1,6 +1,6 @@
 "use strict";
 const express = require("express");
-const _port = 3000;
+const _port = process.env.PORT||3000;
 const _app_folder = 'www';
 const app = express();
 // ---- SERVE STATIC FILES ---- //
