@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fdfdfd;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+}
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 0.5rem;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-right: 1rem;
+}
+h1 {
+  color: #0C897C;
+  margin-bottom: 0.5rem;
+}
+.container{
+    margin-top: 50px;
+}
+.margin-top-10{
+    margin-top: 10px;
+}
+.mdc-top-app-bar{
+    background-color: #0C897C !important;
+}
+.mdc-button--raised:not(:disabled), .mdc-button--unelevated:not(:disabled) {
+    background-color: #0C897C !important;
+    background-color: var(#0C897C, #0C897C) !important;
+}
+.mdc-text-field .mdc-text-field__input {
+    caret-color:#0C897C !important;
+    caret-color:  var(#0C897C, #0C897C) !important;
+}
+:root {
+    --mdc-theme-primary: #0C897C !important;
+    --mdc-theme-secondary: #0C897C !important;
+    --mdc-theme-background: #fff;
+}
