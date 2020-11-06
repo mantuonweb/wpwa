@@ -1,9 +1,14 @@
-const staticDevCoffee = "WhatsApp AS"
+const staticDevCoffee = "WhatsApp AS";
 const assets = [
     "/",
     "/index.html",
     "/css/style.css",
-    "/js/main.js"
+    "/js/main.js",
+    "https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css",
+    "https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js",
+    "https://code.jquery.com/jquery-3.5.1.min.js",
+    "https://fonts.googleapis.com/icon?family=Material+Icons",
+    "https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap"
 ]
 //https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker
 self.addEventListener("install", installEvent => {
